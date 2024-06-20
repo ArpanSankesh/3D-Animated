@@ -15,5 +15,17 @@ html, body {
 }
 
 .container{
-    
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 20px 0px 200px #FFF;
+}
+
+.cursor{
+    position: absolute;
+    z-index: 999;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
 }
